@@ -17,6 +17,8 @@ const Instructor = () => {
   const [canFollow, setCanFollow] = useState(false);
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
 
+  const [canFollow2, setCanFollow2] = useState(false);
+
     const navigate = useNavigate()
   
   function handleFollow() {
