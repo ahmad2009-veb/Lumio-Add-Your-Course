@@ -34,7 +34,7 @@ const Instructor = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const { data } = await axios.get(`http://localhost:3002/data`);
+        const { data } = await axios.get(`https://myserverofideaproject.onrender.com/api/data`);
         const instructorCourses = data.filter(
           (c: any) => c.instructorId === id
         );

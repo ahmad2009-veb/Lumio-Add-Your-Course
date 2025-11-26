@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
-const API = "http://localhost:3002";
+const API = "https://myserverofideaproject.onrender.com/api";
 
 export interface Course {
     id: string;
@@ -28,28 +28,32 @@ export const getCourse = createAsyncThunk<Course[]>(
   "courses/getCourse",
   async () => {
     try {
-      const { data } = await axios.get(`${API}/data`);
+      const { data } = await axios.get(`${API}/data`); // <--- иваз шуд
       return data;
+    } catch (error) {
+        console.log(error);
+        return [];
+    }
+  }
+);
+
+export const AddNewCourse = createAsyncThunk<any>(
+  "addcourse",
+  async (course, { dispatch }) => {
+    try {
+      await axios.post(`${API}/data`, course);
+      dispatch(getCourse());
     } catch (error) {
         console.log(error);
     }
   }
 );
 
-export const AddNewCourse = createAsyncThunk<any>("addcourse",async (user,{dispatch}) => {
-    try {
-        await axios.post(`${API}/data`, user)
-        dispatch(getCourse())
-    } catch (error) {
-        console.log(error);
-    }
-})
-
 export const getCourseByCategory = createAsyncThunk<Course[], string>(
   "courses/getCourseByCategory",
   async (category) => {
     try {
-        const { data } = await axios.get(`${API}/data`);
+        const { data } = await axios.get(`${API}/data`); // <--- иваз шуд
         return category === "all" ? data : data.filter(course => course.category === category);
     } catch (error) {
       console.log(error);
@@ -57,6 +61,7 @@ export const getCourseByCategory = createAsyncThunk<Course[], string>(
     }
   }
 );
+
 
 export const getCourseByPrice = createAsyncThunk<Course[], string>(
   "courses/getCourseByPrice",

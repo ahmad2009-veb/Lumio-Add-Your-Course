@@ -17,7 +17,7 @@ const Register = () => {
   const [email, setemail] = useState("")
   const [password, setpassword] = useState("")
 
-  const API = "http://localhost:3002/Sigup";
+  const API = "https://myserverofideaproject.onrender.com/api/Sigup";
 
 
   async function SignUp(users) {

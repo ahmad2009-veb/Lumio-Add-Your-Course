@@ -10,7 +10,8 @@ const AboutCourse = () => {
   const { id } = useParams();
   const [iduser, setiduser] = useState(null);
   const [loading, setLoading] = useState(true);
-
+  const [currentVideo, setCurrentVideo] = useState(0);
+  const [testDone, setTestDone] = useState(false);
   const [showTest, setShowTest] = useState(false);
 
   const [fortest,setfortest] = useState([])
@@ -21,7 +22,7 @@ const AboutCourse = () => {
 
   async function getTest() {
     try {
-      const { data } = await axios.get(`http://localhost:3002/testAfterVideo`);
+      const { data } = await axios.get(`https://myserverofideaproject.onrender.com/api/testAfterVideo`);
         setfortest(data)
     } catch (error) {
       console.log(error);
@@ -30,7 +31,7 @@ const AboutCourse = () => {
 
   async function getCourseById() {
     try {
-      const { data } = await axios.get(`http://localhost:3002/courses/${id}`);
+      const { data } = await axios.get(`https://myserverofideaproject.onrender.com/api/courses/${id}`);
       setiduser(data);
     } catch (error) {
       console.log(error);
@@ -68,11 +69,17 @@ const AboutCourse = () => {
 
     if (loading) {
       return (
-        <div className="min-h-screen flex items-center justify-center text-gray-900">
-          Loading course details...
+        <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+          <div className="flex space-x-2">
+            <div className="w-4 h-4 bg-blue-500 rounded-full animate-bounce"></div>
+            <div className="w-4 h-4 bg-blue-500 rounded-full animate-bounce [animation-delay:0.2s]"></div>
+            <div className="w-4 h-4 bg-blue-500 rounded-full animate-bounce [animation-delay:0.4s]"></div>
+          </div>
+          <p className="mt-3 text-gray-700 font-medium text-lg">Loading...</p>
         </div>
       );
     }
+
 
     if (!iduser) {
       return (
@@ -222,14 +229,25 @@ const AboutCourse = () => {
             Course Preview Videos
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {videos.map((video, index) => (
-              <div
-                key={index}
-                className="bg-gray-100 rounded-xl p-4 shadow-md border-2 border-blue-300 hover:border-blue-500 transition-all duration-300 hover:shadow-lg"
+            <div className="bg-gray-100 rounded-xl p-4 shadow-md border-2 border-blue-300">
+              <VideoCard
+                video={videos[currentVideo]}
+                test={fortest[currentVideo]}
+                onFinishTest={() => setTestDone(true)}
+              />
+            </div>
+
+            {testDone && currentVideo < videos.length - 1 && (
+              <button
+                onClick={() => {
+                  setCurrentVideo(currentVideo + 1);
+                  setTestDone(false);
+                }}
+                className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
               >
-                <VideoCard video={video} test={fortest[index]} />
-              </div>
-            ))}
+                ► Watch the next video
+              </button>
+            )}
           </div>
         </div>
       </section>

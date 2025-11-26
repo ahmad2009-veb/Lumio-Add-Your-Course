@@ -110,17 +110,20 @@ const Messages = () => {
 
   const [info, setinfo] = useState<Course>([]);
 
-  async function getInof() {
+  async function getInfo() {
     try {
-      const { data } = await axios.get(`http://localhost:3002/data/${id}`);
+      const { data } = await axios.get(
+        `https://myserverofideaproject.onrender.com/api/data/${id}`
+      );
       setinfo(data);
     } catch (error) {
       console.log(error);
     }
   }
 
+
   useEffect(() => {
-    getInof();
+    getInfo();
   }, [id]);
 
   const [messages, setMessages] = useState([]);
@@ -130,7 +133,7 @@ const Messages = () => {
     setShowStickers(false);
   }
 
-  const api = "http://localhost:3002/messageDB";
+  const api = "https://myserverofideaproject.onrender.com/api/messageDB";
 
   async function GetChat() {
     try {

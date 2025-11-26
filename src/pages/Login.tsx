@@ -20,7 +20,7 @@ const savedPassword = localStorage.getItem("userPassword");
 
  async function LogIn(newlog) {
    try {
-     const { data } = await axios.post("http://localhost:3002/Login", newlog);
+     const { data } = await axios.post("https://myserverofideaproject.onrender.com/api/Login", newlog);
 
      if (data) {
        localStorage.setItem("userEmail", newlog.email);

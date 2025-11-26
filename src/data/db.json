@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Complete Web Design Masterclass",
       "instructor": "Sarah Johnson",
       "instructorId": "1",
@@ -13,7 +13,7 @@
       "category": "Design"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Full-Stack Web Development Bootcamp",
       "instructor": "Michael Chen",
       "instructorId": "2",
@@ -25,7 +25,7 @@
       "category": "Programming"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Digital Art & Illustration Fundamentals",
       "instructor": "Emily Rodriguez",
       "instructorId": "3",
@@ -37,7 +37,7 @@
       "category": "Art"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Music Production & Sound Engineering",
       "instructor": "David Williams",
       "instructorId": "4",
@@ -49,7 +49,7 @@
       "category": "Music"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Spanish for Beginners - Complete Course",
       "instructor": "Maria Garcia",
       "instructorId": "5",
@@ -61,7 +61,7 @@
       "category": "Languages"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Advanced UI/UX Design Principles",
       "instructor": "James Park",
       "instructorId": "6",
@@ -73,7 +73,7 @@
       "category": "Design"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Python Programming for Data Science",
       "instructor": "Dr. Lisa Anderson",
       "instructorId": "7",
@@ -85,7 +85,7 @@
       "category": "Programming"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Watercolor Painting Techniques",
       "instructor": "Alexandra Moore",
       "instructorId": "8",
@@ -97,7 +97,7 @@
       "category": "Art"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Learning Language C++",
       "instructor": "Ahmad Kamolov",
       "instructorId": "9",
@@ -109,7 +109,7 @@
       "category": "Programming"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Senior Python Developer",
       "instructor": "Muhammadjon Mirzoev",
       "instructorId": "10",
@@ -121,7 +121,7 @@
       "category": "Programming"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Javascript Developer",
       "instructor": "Ahmad Kamolov",
       "instructorId": "10",
@@ -133,7 +133,7 @@
       "category": "Programming"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Play Guitar",
       "instructor": "Mahmadov Ahmad",
       "image": "https://media.ipassio.com/media/ckeditor_image/2022/12/05/guitar.jpg",
@@ -145,7 +145,7 @@
       "category": "Music"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Spanish to French Language",
       "instructor": "Yunus Yorakov",
       "image": "https://miro.medium.com/1*9LJgvuRWDi13c5HqVZivRQ.jpeg",
@@ -157,7 +157,7 @@
       "instructorId": "15"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "English Languge",
       "instructor": "Rohila Naimova",
       "image": "https://images.unsplash.com/photo-1499696562547-dbe51006e1bb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNhJTIwZmxhZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -169,7 +169,7 @@
       "instructorId": "16"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "React Fremwork",
       "instructor": "Kamol Aminjonov",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png",
@@ -286,6 +286,11 @@
       "id": "17c3",
       "email": "AhmadKamolov@gmail.com",
       "password": "0022"
+    },
+    {
+      "id": "8dc2",
+      "email": "",
+      "password": ""
     }
   ],
   "Sigup": [
@@ -358,6 +363,13 @@
       "lastname": "Kamolov",
       "email": "ahmad.kholov2009@icloud.com",
       "password": "2030"
+    },
+    {
+      "id": "d2ac",
+      "firsname": "ahmad",
+      "lastname": "kamolov",
+      "email": "ahmad.kholov2009@icloud.com",
+      "password": "2030"
     }
   ],
   "messageDB": [
@@ -397,72 +409,79 @@
       "read": true
     },
     {
-      "id": 6,
+      "id": "6",
       "text": "Man kursi shumoro mexara",
       "sent": true,
       "time": "16:11",
       "read": false
     },
     {
-      "id": 7,
+      "id": "7",
       "text": "Chand pul ast",
       "sent": true,
       "time": "16:11",
       "read": false
     },
     {
-      "id": 8,
+      "id": "8",
       "text": " 😃",
       "sent": true,
       "time": "16:19",
       "read": false
     },
     {
-      "id": 9,
+      "id": "9",
       "text": "Salom",
       "sent": true,
       "time": "16:23",
       "read": false
     },
     {
-      "id": 10,
+      "id": "10",
       "text": "Salom",
       "sent": true,
       "time": "16:23",
       "read": false
     },
     {
-      "id": 11,
+      "id": "11",
       "text": " 😀hello",
       "sent": true,
       "time": "22:08",
       "read": false
     },
     {
-      "id": 12,
+      "id": "12",
       "text": "olo 🙂",
       "sent": true,
       "time": "18:26",
       "read": false
     },
     {
-      "id": 13,
+      "id": "13",
       "text": "hgghjhvjhvjh 😁",
       "sent": true,
       "time": "18:58",
       "read": false
     },
     {
-      "id": 14,
+      "id": "14",
       "text": "salom kamol",
       "sent": true,
       "time": "00:41",
+      "read": false
+    },
+    {
+      "id": 15,
+      "text": "salom nasim 😚",
+      "sent": true,
+      "time": "15:34",
       "read": false
     }
   ],
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "video1": "https://youtu.be/j6Ule7GXaRs",
       "video2": "https://youtu.be/C72WkcUZvco",
       "video3": "https://youtu.be/HZuk6Wkx_Eg?list=PLXC_gcsKLD6kZmso5-rUibKzyfXnAR34k",
@@ -481,7 +500,7 @@
       "whyCourse": "This course is essential for anyone who wants to build modern, professional, and user-friendly websites. It helps you understand the fundamentals of good design, improves your creative skills, and teaches you how to create layouts that look great on all devices. Whether you're starting a career in web design, improving your business website, or boosting your freelance skills, this course gives you the knowledge and tools to design with confidence."
     },
     {
-      "id": 2,
+      "id": "2",
       "video1": "https://youtu.be/TYxtWnFNkDw?list=PLVht7UBOfJb8p7ehKW_yDfCrzAJVRHrE7",
       "video2": "https://youtu.be/bE4t74Yk6oA?list=PLVht7UBOfJb8p7ehKW_yDfCrzAJVRHrE7",
       "video3": "https://youtu.be/rCtnfawtQQs?list=PLVht7UBOfJb8p7ehKW_yDfCrzAJVRHrE7",
@@ -500,7 +519,7 @@
       "whyCourse": "This course is essential for anyone who wants to become a complete and versatile web developer. Full-stack skills allow you to work on both the front end and back end, giving you the ability to build entire applications independently. Whether you're looking to start a tech career, switch professions, or upgrade your development skills, full-stack knowledge opens the door to more job opportunities, higher earning potential, and the ability to create real-world, fully functional web solutions from start to finish."
     },
     {
-      "id": 3,
+      "id": "3",
       "video1": "https://youtu.be/XAQ6K3DbEt4?list=PLINz5dTN9-0tS0FEA3UhAB4NVg7oiD6Iy",
       "video2": "https://youtu.be/tZVZQLyCDfo?list=PLINz5dTN9-0tS0FEA3UhAB4NVg7oiD6Iy",
       "video3": "https://youtu.be/L4nJwVkEhqI?list=PLINz5dTN9-0tS0FEA3UhAB4NVg7oiD6Iy",
@@ -519,7 +538,7 @@
       "whyCourse": "This course is ideal for aspiring digital artists who want to learn illustration skills for animation, gaming, and graphic design careers."
     },
     {
-      "id": 4,
+      "id": "4",
       "video1": "https://youtu.be/JGGnla8RKP4",
       "video2": "https://youtu.be/zz5NHkUVBQA",
       "video3": "https://youtu.be/Q1PxfEW-WDY",
@@ -538,7 +557,7 @@
       "whyCourse": "Perfect for future producers and sound engineers who want to create high-quality music, podcasts, or studio recordings."
     },
     {
-      "id": 5,
+      "id": "5",
       "video1": "https://youtu.be/kJQjXAVEWt0?list=PLv63dFTP4Sjq6knRsZQI-bTnRE38cZZoy",
       "video2": "https://youtu.be/qIyhRvk7qlk?list=PLv63dFTP4Sjq6knRsZQI-bTnRE38cZZoy",
       "video3": "https://youtu.be/FRV9fvWjMHA?list=PLv63dFTP4Sjq6knRsZQI-bTnRE38cZZoy",
@@ -557,7 +576,7 @@
       "whyCourse": "Great for travelers, students, and professionals who want to communicate confidently in Spanish."
     },
     {
-      "id": 6,
+      "id": "6",
       "video1": "https://youtu.be/3z0rrh6WOQM?list=PLjiHFwhbHYlHSpAflJwjsKAyMaMhASm0F",
       "video2": "https://youtu.be/6oaOXxjKITE?list=PLjiHFwhbHYlHSpAflJwjsKAyMaMhASm0F",
       "video3": "https://youtu.be/pnPBGT4Xhts?list=PLjiHFwhbHYlHSpAflJwjsKAyMaMhASm0F",
@@ -576,15 +595,15 @@
       "whyCourse": "Perfect for designers who want to level up their UX expertise and build high-quality professional interfaces."
     },
     {
-      "id": 7,
+      "id": "7",
       "video1": "https://youtu.be/QsoYxQCznn4?list=PLo0oTKi2fPNiOj3EYQRN66aMKHgHZj5G5",
       "video2": "https://youtu.be/VVhURHXMSlA?list=PLo0oTKi2fPNiOj3EYQRN66aMKHgHZj5G5",
       "video3": "https://fakevideo.com/Python-DataScience-3",
       "video4": "https://www.youtube.com/watch?v=mNdbcHECGN4",
-      "video5": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",                  
-      "video6": "https://www.youtube.com/watch?v=7eh4d6sabA0",                    
-      "video7": "https://www.youtube.com/watch?v=rfscVS0vtbw",                     
-      "video8": "https://www.youtube.com/watch?v=H1elmMBnykA",                   
+      "video5": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+      "video6": "https://www.youtube.com/watch?v=7eh4d6sabA0",
+      "video7": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "video8": "https://www.youtube.com/watch?v=H1elmMBnykA",
       "video9": "https://www.youtube.com/watch?v=PXQB44-lf9U",
       "name": "Python Programming for Data Science",
       "img": "http://localhost:8080/src/assets/course-programming.jpg",
@@ -595,7 +614,7 @@
       "whyCourse": "Perfect for future data analysts and ML engineers who want to use Python for solving data problems."
     },
     {
-      "id": 8,
+      "id": "8",
       "video1": "https://www.youtube.com/watch?v=-DaHGJXtk98",
       "video2": "https://www.youtube.com/watch?v=SCIt_RtMK9A",
       "video3": "https://www.youtube.com/watch?v=9P0ot0ifwXk",
@@ -614,11 +633,11 @@
       "whyCourse": "Perfect for beginner and intermediate artists who want to improve their watercolor painting skills."
     },
     {
-      "id": 9,
+      "id": "9",
       "video1": "https://www.youtube.com/watch?v=XqJYFCL-enI",
       "video2": "https://www.youtube.com/watch?v=H1elmMBnykA",
       "video3": "https://www.youtube.com/watch?v=BClS40yzssA",
-      "video4": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",  
+      "video4": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
       "video5": "https://www.youtube.com/watch?v=XqJYFCL-enI",
       "video6": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
       "video7": "https://www.youtube.com/watch?v=N0in8qKkO7o",
@@ -633,16 +652,16 @@
       "whyCourse": "Great for students pursuing programming, game development, or low-level system programming."
     },
     {
-      "id": 10,
-      "video1": "https://www.youtube.com/watch?v=O1gZc-erLjg",             
-      "video2": "https://www.youtube.com/live/Yrtm7d3TJbs?feature=share",   
-      "video3": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",              
-      "video4": "https://www.youtube.com/watch?v=rfscVS0vtbw",              
-      "video5": "https://www.youtube.com/watch?v=HGOBQPFzWKo",              
-      "video6": "https://www.youtube.com/watch?v=8ext9G7xspg",            
-      "video7": "https://www.youtube.com/watch?v=OB914jv7l10",              
-      "video8": "https://www.youtube.com/watch?v=9Os0o3wzS_I",            
-      "video9": "https://www.youtube.com/watch?v=wp_P5wQkjZk",  
+      "id": "10",
+      "video1": "https://www.youtube.com/watch?v=O1gZc-erLjg",
+      "video2": "https://www.youtube.com/live/Yrtm7d3TJbs?feature=share",
+      "video3": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+      "video4": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "video5": "https://www.youtube.com/watch?v=HGOBQPFzWKo",
+      "video6": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "video7": "https://www.youtube.com/watch?v=OB914jv7l10",
+      "video8": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+      "video9": "https://www.youtube.com/watch?v=wp_P5wQkjZk",
       "name": "Senior Python Developer",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
       "about": "An advanced course for building high-level Python applications, optimizing code, and mastering backend architecture.",
@@ -652,7 +671,7 @@
       "whyCourse": "Designed for developers who want to reach senior-level Python expertise and work on large-scale systems."
     },
     {
-      "id": 11,
+      "id": "11",
       "video1": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
       "video2": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
       "video3": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
@@ -671,16 +690,16 @@
       "whyCourse": "Perfect for anyone wanting to build modern web apps or begin a career as a front-end developer."
     },
     {
-      "id": 12,
-      "video1": "https://www.youtube.com/watch?v=ppoiecarX-o",  
-      "video2": "https://youtu.be/BBz-Jyr23M4",  
-      "video3": "https://www.youtube.com/watch?v=ppoiecarX-o",  
-      "video4": "https://youtu.be/6Jxz9F3CYuo",  
-      "video5": "https://youtu.be/SV2ehlxGEFw?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",  
-      "video6": "https://youtu.be/VK1Fe0mnXvE?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",  
-      "video7": "https://youtu.be/VCIsdvZheC8?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",  
-      "video8": "https://youtu.be/Zr0WmWpeWL8?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",  
-      "video9": "https://youtu.be/Ix0A3ps_vgg?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq", 
+      "id": "12",
+      "video1": "https://www.youtube.com/watch?v=ppoiecarX-o",
+      "video2": "https://youtu.be/BBz-Jyr23M4",
+      "video3": "https://www.youtube.com/watch?v=ppoiecarX-o",
+      "video4": "https://youtu.be/6Jxz9F3CYuo",
+      "video5": "https://youtu.be/SV2ehlxGEFw?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",
+      "video6": "https://youtu.be/VK1Fe0mnXvE?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",
+      "video7": "https://youtu.be/VCIsdvZheC8?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",
+      "video8": "https://youtu.be/Zr0WmWpeWL8?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",
+      "video9": "https://youtu.be/Ix0A3ps_vgg?list=PL-RYb_OMw7GfqsbipaR65GDDzA1rP5deq",
       "name": "Play Guitar",
       "img": "https://media.ipassio.com/media/ckeditor_image/2022/12/05/guitar.jpg",
       "about": "Learn guitar basics, chords, rhythms, and full songs step-by-step with guided practice.",
@@ -690,7 +709,7 @@
       "whyCourse": "Perfect for beginners who want to learn guitar for hobby, performance, or music composition."
     },
     {
-      "id": 15,
+      "id": "15",
       "video1": "https://youtu.be/DAp_v7EH9AA",
       "video2": "https://youtu.be/ldcTmCedw98?list=PLihSonlo1OAbrSWxDvCZ18e6PRVJ0vrVa",
       "video3": "https://youtu.be/Vhz2HGy6Eqc?list=PLihSonlo1OAbrSWxDvCZ18e6PRVJ0vrVa",
@@ -709,7 +728,7 @@
       "whyCourse": "Ideal for Spanish speakers who want to expand their language knowledge to French."
     },
     {
-      "id": 16,
+      "id": "16",
       "video1": "https://youtu.be/fKlK0-0Pca4?list=PLrENS7fQOimPu96_eJFQGFGLMsnb4S0YK",
       "video2": "https://youtu.be/mGPd5zvsOEw?list=PLrENS7fQOimPu96_eJFQGFGLMsnb4S0YK",
       "video3": "https://youtu.be/V7G_5DseTug?list=PLrENS7fQOimPu96_eJFQGFGLMsnb4S0YK",
@@ -728,7 +747,7 @@
       "whyCourse": "Useful for students, travelers, and professionals who want to improve their English fluency."
     },
     {
-      "id": 17,
+      "id": "17",
       "video1": "https://youtu.be/tfn-59fbNMQ?list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2",
       "video2": "https://youtu.be/7tx_DHs7ceM?list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2",
       "video3": "https://youtu.be/h8psMIltC1Q?list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2",
@@ -749,7 +768,7 @@
   ],
   "testAfterVideo": [
     {
-      "id": 1,
+      "id": "1",
       "test1": "What is the main purpose of UI/UX design in web development?",
       "test2": "Which layout technique ensures that a website adapts to different screen sizes?",
       "test3": "What is the importance of using consistent typography in web design?",
@@ -758,7 +777,7 @@
       "test6": "What are the key elements of a user-friendly website?"
     },
     {
-      "id": 2,
+      "id": "2",
       "test1": "What is the difference between front-end and back-end development?",
       "test2": "Which languages are commonly used to build dynamic, client-side web applications?",
       "test3": "What is the purpose of a database in a full-stack application?",
@@ -767,7 +786,7 @@
       "test6": "Why is version control (such as Git) important for full-stack developers?"
     },
     {
-      "id": 3,
+      "id": "3",
       "test1": "What tools are commonly used for digital illustration?",
       "test2": "Why is color theory important in digital art?",
       "test3": "What is the role of layers in digital drawing?",
@@ -776,7 +795,7 @@
       "test6": "What is the difference between raster and vector art?"
     },
     {
-      "id": 4,
+      "id": "4",
       "test1": "What is a DAW in music production?",
       "test2": "Why is mixing important in audio production?",
       "test3": "What does mastering improve?",
@@ -785,7 +804,7 @@
       "test6": "Why do producers use MIDI?"
     },
     {
-      "id": 5,
+      "id": "5",
       "test1": "What is the basic structure of a Spanish sentence?",
       "test2": "Why are verbs important in Spanish communication?",
       "test3": "What is the purpose of gendered nouns?",
@@ -794,7 +813,7 @@
       "test6": "What techniques help improve vocabulary retention?"
     },
     {
-      "id": 6,
+      "id": "6",
       "test1": "What is a design system?",
       "test2": "Why is user psychology important in UX?",
       "test3": "What makes an interface intuitive?",
@@ -803,7 +822,7 @@
       "test6": "What is the role of prototyping?"
     },
     {
-      "id": 7,
+      "id": "7",
       "test1": "What is Python used for in data science?",
       "test2": "Why are libraries like NumPy important?",
       "test3": "What is data cleaning?",
@@ -812,7 +831,7 @@
       "test6": "What is machine learning?"
     },
     {
-      "id": 8,
+      "id": "8",
       "test1": "What is the wet-on-wet technique?",
       "test2": "Why is paper quality important?",
       "test3": "How does water control affect painting?",
@@ -821,7 +840,7 @@
       "test6": "How do you create shadows in watercolor?"
     },
     {
-      "id": 9,
+      "id": "9",
       "test1": "What is a variable in C++?",
       "test2": "What is a class?",
       "test3": "Why is memory management important?",
@@ -830,7 +849,7 @@
       "test6": "What does OOP stand for?"
     },
     {
-      "id": 10,
+      "id": "10",
       "test1": "What is asynchronous programming?",
       "test2": "Why use design patterns?",
       "test3": "What is code optimization?",
@@ -839,7 +858,7 @@
       "test6": "Why is testing important?"
     },
     {
-      "id": 11,
+      "id": "11",
       "test1": "What is the DOM?",
       "test2": "What is an event listener?",
       "test3": "What are ES6 features?",
@@ -848,7 +867,7 @@
       "test6": "What is async/await?"
     },
     {
-      "id": 12,
+      "id": "12",
       "test1": "What are guitar chords?",
       "test2": "Why is finger placement important?",
       "test3": "What is strumming?",
@@ -857,7 +876,7 @@
       "test6": "Why is rhythm essential?"
     },
     {
-      "id": 13,
+      "id": "13",
       "test1": "What is programming logic?",
       "test2": "What are basic data types?",
       "test3": "What is a loop?",
@@ -866,7 +885,7 @@
       "test6": "What is pseudocode?"
     },
     {
-      "id": 14,
+      "id": "14",
       "test1": "What is creativity?",
       "test2": "How does practice improve skill?",
       "test3": "What is artistic expression?",
@@ -875,7 +894,7 @@
       "test6": "What builds long-term skill?"
     },
     {
-      "id": 15,
+      "id": "15",
       "test1": "What are similarities between Spanish and French?",
       "test2": "Why is pronunciation important?",
       "test3": "How do verb conjugations differ?",
@@ -884,7 +903,7 @@
       "test6": "What helps vocabulary retention?"
     },
     {
-      "id": 16,
+      "id": "16",
       "test1": "What is English grammar?",
       "test2": "Why is listening practice important?",
       "test3": "What are tenses?",
@@ -893,7 +912,7 @@
       "test6": "How to create simple sentences?"
     },
     {
-      "id": 17,
+      "id": "17",
       "test1": "What is a React component?",
       "test2": "What are hooks used for?",
       "test3": "Why use JSX?",

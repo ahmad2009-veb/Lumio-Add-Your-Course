@@ -22,7 +22,7 @@ const [course, setCourse] = useState<any>(null);
 useEffect(() => {
   async function getById() {
     try {
-      const { data } = await axios.get(`http://localhost:3002/data/${id}`);
+      const { data } = await axios.get(`https://myserverofideaproject.onrender.com/api/data/${id}`);
       setCourse(data);
     } catch (error) {
       console.log(error);
